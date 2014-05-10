@@ -1,0 +1,149 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.59088,
+               39.291212
+            ]
+         },
+         "properties":{
+            "Place":"Home Study Sessions",
+            "Date of Event":"3/9/2014",
+            "Minutes":"1.30",
+            "House":"Gajok",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Tutoring",
+            "Image":"",
+            "Text":"English"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.576273,
+               39.282351
+            ]
+         },
+         "properties":{
+            "Place":"Home Study Sessions",
+            "Date of Event":"3/18/2014",
+            "Minutes":"1.15",
+            "House":"Gajok",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Tutoring",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"3/19/2014",
+            "Minutes":"1.00",
+            "House":"Gajok",
+            "School":"Dunbar",
+            "Categories":"Life",
+            "Subcategories":"College/SAT Prep",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"3/24/2014",
+            "Minutes":"1.00",
+            "House":"Gajok",
+            "School":"Dunbar",
+            "Categories":"Relationship",
+            "Subcategories":"Rides to school",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.59088,
+               39.291212
+            ]
+         },
+         "properties":{
+            "Place":"Playtime at home",
+            "Date of Event":"3/26/2014",
+            "Minutes":"3.00",
+            "House":"Gajok",
+            "School":"Dunbar",
+            "Categories":"Life",
+            "Subcategories":"Assisting Parent/Sibling/ Other Family Member",
+            "Image":"",
+            "Text":"Movie time with Family"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.591047,
+               39.295727
+            ]
+         },
+         "properties":{
+            "Place":"Sidney Kimmel Comprehensive Cancer Center Fitness Day",
+            "Date of Event":"3/25/2014",
+            "Minutes":"1.40",
+            "House":"Gajok",
+            "School":"Dunbar",
+            "Categories":"Life",
+            "Subcategories":"Health",
+            "Image":"[image saved]",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+
+         },
+         "properties":{
+            "Place":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+
+         },
+         "properties":{
+            "Place":""
+         }
+      }
+   ]
+}

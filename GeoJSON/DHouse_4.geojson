@@ -1,0 +1,128 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"3/11/2014",
+            "Minutes":"1.30",
+            "House":"Gesin",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"College/SAT Prep",
+            "Image":"",
+            "Text":"Post High School Prep"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.633994,
+               39.302147
+            ]
+         },
+         "properties":{
+            "Place":"Home Study Sessions",
+            "Date of Event":"3/12/2014",
+            "Minutes":"1.00",
+            "House":"Gesin",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Tutoring",
+            "Image":"",
+            "Text":"English"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.585371,
+               39.286271
+            ]
+         },
+         "properties":{
+            "Place":"Home Study Sessions",
+            "Date of Event":"3/21/2014",
+            "Minutes":"1.00",
+            "House":"Gesin",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Tutoring",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.633994,
+               39.302147
+            ]
+         },
+         "properties":{
+            "Place":"Home Study Sessions",
+            "Date of Event":"3/22/2014",
+            "Minutes":"0.50",
+            "House":"Gesin",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Tutoring",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.585371,
+               39.286271
+            ]
+         },
+         "properties":{
+            "Place":"Home Study Sessions",
+            "Date of Event":"3/23/2014",
+            "Minutes":"2.00",
+            "House":"Gesin",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Tutoring",
+            "Image":"",
+            "Text":"Latin American History"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+
+         },
+         "properties":{
+            "Place":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+
+         },
+         "properties":{
+            "Place":""
+         }
+      }
+   ]
+}

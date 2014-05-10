@@ -1,0 +1,161 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.618782,
+               39.28899
+            ]
+         },
+         "properties":{
+            "Place":"Cirque Du Soleil",
+            "Date of Event":"3/21/2014",
+            "Minutes":"4.00",
+            "House":"Aile",
+            "School":"Dunbar",
+            "Categories":"Relationship",
+            "Subcategories":"IMP Wide Event",
+            "Image":"[image saved]",
+            "Text":"Our students and volunteers at Cirque Du Soleil last Friday! Future trapeze artists maybe??"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.592328,
+               39.292052
+            ]
+         },
+         "properties":{
+            "Place":"Betty Hyatt Community Park Clean Up Day",
+            "Date of Event":"3/13/2014",
+            "Minutes":"1.30",
+            "House":"Aile",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Community Service",
+            "Image":"",
+            "Text":"Cleaning the streets and giving back!!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.592328,
+               39.292052
+            ]
+         },
+         "properties":{
+            "Place":"Betty Hyatt Community Park Clean Up Day",
+            "Date of Event":"3/13/2014",
+            "Minutes":"1.30",
+            "House":"Aile",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Community Service",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.592328,
+               39.292052
+            ]
+         },
+         "properties":{
+            "Place":"Betty Hyatt Community Park Clean Up Day",
+            "Date of Event":"3/13/2014",
+            "Minutes":"1.30",
+            "House":"Aile",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Community Service",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"3/16/2014",
+            "Minutes":"0.30",
+            "House":"Aile",
+            "School":"Dunbar",
+            "Categories":"Life",
+            "Subcategories":"Assisting Parent/Sibling/ Other Family Member",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"3/17/2014",
+            "Minutes":"0.10",
+            "House":"Aile",
+            "School":"Dunbar",
+            "Categories":"Life",
+            "Subcategories":"College/SAT Prep",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"4/1/2014",
+            "Minutes":"0.15",
+            "House":"Aile",
+            "School":"Dunbar",
+            "Categories":"Relationship",
+            "Subcategories":"Rides to school",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+
+         },
+         "properties":{
+            "Place":""
+         }
+      }
+   ]
+}

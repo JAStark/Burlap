@@ -1,0 +1,257 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -78.679595,
+               38.293017
+            ]
+         },
+         "properties":{
+            "Place":"Shenandoah National Park",
+            "Date of Event":"4/3/14",
+            "Hours":"40",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"IMP Camping Trip - Pretty sure we saw a bear! Or a Puma !!! Maybe it was just a cow. "
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.609537,
+               39.325525
+            ]
+         },
+         "properties":{
+            "Place":"People's Community Health Center",
+            "Date of Event":"4/4/14",
+            "Hours":"1",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Life",
+            "Subcategories":"Health",
+            "Image":"",
+            "Text":"Physicals"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.673788,
+               39.339857
+            ]
+         },
+         "properties":{
+            "Place":"Lucille Park",
+            "Date of Event":"4/8/14",
+            "Hours":"0.5",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Life",
+            "Subcategories":"Assisting relative",
+            "Image":"",
+            "Text":"Getting some fruit and veg - dinner tonight: Fajitas ooh lala"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.581453,
+               39.290377
+            ]
+         },
+         "properties":{
+            "Place":"Patterson Park",
+            "Date of Event":"4/10/14",
+            "Hours":"3",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"Annual Skating Party - been so looong! Loved it"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.63556,
+               39.338415
+            ]
+         },
+         "properties":{
+            "Place":"Hoes Heights",
+            "Date of Event":"4/12/14",
+            "Hours":"2",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Academic",
+            "Subcategories":"General tutoring",
+            "Image":"",
+            "Text":"Math"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.631467,
+               39.331268
+            ]
+         },
+         "properties":{
+            "Place":"Hampden",
+            "Date of Event":"4/16/14",
+            "Hours":"2",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"Family/Home event",
+            "Image":"",
+            "Text":"Pizza and movies! Love family time"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.641717,
+               39.320432
+            ]
+         },
+         "properties":{
+            "Place":"Druid Hill Park",
+            "Date of Event":"4/19/14",
+            "Hours":"2",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"BSSC Volleyball - great show, Cidae. Maybe next timeÖ"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.609537,
+               39.325525
+            ]
+         },
+         "properties":{
+            "Place":"People's Community Health Center",
+            "Date of Event":"4/20/14",
+            "Hours":"1",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Life",
+            "Subcategories":"Health",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.66228,
+               39.329619
+            ]
+         },
+         "properties":{
+            "Place":"Park Circle",
+            "Date of Event":"4/24/14",
+            "Hours":"0.5",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Life",
+            "Subcategories":"Assisting relative",
+            "Image":"",
+            "Text":"babysitting these kids is always a pleasure <3"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.610021,
+               39.290241
+            ]
+         },
+         "properties":{
+            "Place":"IMP HQ",
+            "Date of Event":"4/26/14",
+            "Hours":"",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"IMP Spring Holiday Party"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.63254,
+               39.334322
+            ]
+         },
+         "properties":{
+            "Place":"3801 Roland Avenue",
+            "Date of Event":"4/28/14",
+            "Hours":"4",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Academic",
+            "Subcategories":"Community Service",
+            "Image":"",
+            "Text":"TreeFil Community Garden (10am - 2pm)"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.590384,
+               39.283645
+            ]
+         },
+         "properties":{
+            "Place":"Fells Point",
+            "Date of Event":"5/2/14",
+            "Hours":"2",
+            "House":"Cidae",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"Family/Home event",
+            "Image":"",
+            "Text":"BBQ "
+         }
+      }
+   ]
+}

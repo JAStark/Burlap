@@ -1,0 +1,215 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.618694,
+               39.315383
+            ]
+         },
+         "properties":{
+            "Place":"Franciscan Center",
+            "Date of Event":"4/2/14",
+            "Hours":"3",
+            "House":"Elpida",
+            "School":"ACCE",
+            "Categories":"Academic ",
+            "Subcategories":"Community Service",
+            "Image":"",
+            "Text":"Campus Kitchen - Franciscan Center (5:30-7PM)"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -78.679595,
+               38.293017
+            ]
+         },
+         "properties":{
+            "Place":"Shenandoah National Park",
+            "Date of Event":"4/3/14",
+            "Hours":"50",
+            "House":"Elpida",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"IMP Camping Trip - so much green. So beautiful."
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.622859,
+               39.323201
+            ]
+         },
+         "properties":{
+            "Place":"Remington",
+            "Date of Event":"4/6/14",
+            "Hours":"0.5",
+            "House":"Elpida",
+            "School":"ACCE",
+            "Categories":"Life",
+            "Subcategories":"Assisting relative",
+            "Image":"",
+            "Text":"made lunches! Yum!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.581453,
+               39.290377
+            ]
+         },
+         "properties":{
+            "Place":"Patterson Park",
+            "Date of Event":"4/10/14",
+            "Hours":"3",
+            "House":"Elpida",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"Annual Skating Party - Ouchy! Soo many bruises, but totally worth it!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.620572,
+               39.331858
+            ]
+         },
+         "properties":{
+            "Place":"JHU Homewood Campus",
+            "Date of Event":"4/14/14",
+            "Hours":"1",
+            "House":"Elpida",
+            "School":"ACCE",
+            "Categories":"Academic",
+            "Subcategories":"Workforce prep",
+            "Image":"",
+            "Text":"DAASI Application Day - Summer internships"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.610159,
+               39.298541
+            ]
+         },
+         "properties":{
+            "Place":"Our Daily Bread",
+            "Date of Event":"4/18/14",
+            "Hours":"3",
+            "House":"Elpida",
+            "School":"ACCE",
+            "Categories":"Academic ",
+            "Subcategories":"Community Service",
+            "Image":"",
+            "Text":"Our Daily Bread (9am - 1pm)"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.641717,
+               39.320432
+            ]
+         },
+         "properties":{
+            "Place":"Druid Hill Park",
+            "Date of Event":"4/19/14",
+            "Hours":"2",
+            "House":"Elpida",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"BSSC Volleyball - great weather, games, and awesome people! Cant wait to do this again!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.636574,
+               39.332795
+            ]
+         },
+         "properties":{
+            "Place":"Hampden",
+            "Date of Event":"4/22/14",
+            "Hours":"0.5",
+            "House":"Elpida",
+            "School":"ACCE",
+            "Categories":"Life",
+            "Subcategories":"Assisting relative",
+            "Image":"",
+            "Text":"Collect Nanna from physio! She's so strong"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.610021,
+               39.290241
+            ]
+         },
+         "properties":{
+            "Place":"IMP HQ",
+            "Date of Event":"4/26/14",
+            "Hours":"3",
+            "House":"Elpida",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"IMP Spring Holiday Party"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.637805,
+               39.331037
+            ]
+         },
+         "properties":{
+            "Place":"@ ACCE",
+            "Date of Event":"4/30/14",
+            "Hours":"1",
+            "House":"Elpida",
+            "School":"ACCE",
+            "Categories":"Academic",
+            "Subcategories":"Workforce prep",
+            "Image":"",
+            "Text":"Post High School Workshops"
+         }
+      }
+   ]
+}

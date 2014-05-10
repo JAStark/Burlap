@@ -1,0 +1,140 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.596535,
+               39.408939
+            ]
+         },
+         "properties":{
+            "Place":"Visit Goucher College",
+            "Date of Event":"4/21/2014",
+            "Minutes":"0.01",
+            "House":"Iyali",
+            "School":"Dunbar",
+            "Categories":"Relationship",
+            "Subcategories":"Family House Event",
+            "Image":"[image saved]",
+            "Text":"Visit Goucher College last week, and not even the rain could stop them from loving every second of it!!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"4/28/2014",
+            "Minutes":"0.50",
+            "House":"Iyali",
+            "School":"Dunbar",
+            "Categories":"Relationship",
+            "Subcategories":"Rides to school",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"3/8/2014",
+            "Minutes":"1.00",
+            "House":"Iyali",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"College/SAT Prep",
+            "Image":"",
+            "Text":"Post High School Prep"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.590521,
+               39.285208
+            ]
+         },
+         "properties":{
+            "Place":"Home Study Sessions",
+            "Date of Event":"3/9/2014",
+            "Minutes":"0.50",
+            "House":"Iyali",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Tutoring",
+            "Image":"",
+            "Text":"Geometry"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.620545,
+               39.3302
+            ]
+         },
+         "properties":{
+            "Place":"DAASI Application Day",
+            "Date of Event":"4/14/2014",
+            "Minutes":"2.00",
+            "House":"Iyali",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Workforce Prep",
+            "Image":"",
+            "Text":"DAASI Application Day"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.591047,
+               39.295727
+            ]
+         },
+         "properties":{
+            "Place":"Sidney Kimmel Comprehensive Cancer Center Fitness Day",
+            "Date of Event":"3/25/2014",
+            "Minutes":"1.40",
+            "House":"Iyali",
+            "School":"Dunbar",
+            "Categories":"Life",
+            "Subcategories":"Health",
+            "Image":"[image saved]",
+            "Text":"Healthy and love'in it!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+
+         },
+         "properties":{
+            "Place":""
+         }
+      }
+   ]
+}

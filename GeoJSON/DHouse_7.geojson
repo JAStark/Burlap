@@ -1,0 +1,140 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.618782,
+               39.28899
+            ]
+         },
+         "properties":{
+            "Place":"Cirque Du Soleil",
+            "Date of Event":"3/21/2014",
+            "Minutes":"4.00",
+            "House":"Semejstvo",
+            "School":"Dunbar",
+            "Categories":"Relationship",
+            "Subcategories":"IMP Wide Event",
+            "Image":"[image saved]",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"3/9/2014",
+            "Minutes":"1.00",
+            "House":"Semejstvo",
+            "School":"Dunbar",
+            "Categories":"Relationship",
+            "Subcategories":"Rides to school",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"3/12/2014",
+            "Minutes":"1.30",
+            "House":"Semejstvo",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Workforce Prep",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.626398,
+               39.307194
+            ]
+         },
+         "properties":{
+            "Place":"Home Study Sessions",
+            "Date of Event":"3/12/2014",
+            "Minutes":"5.30",
+            "House":"Semejstvo",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Tutoring",
+            "Image":"",
+            "Text":"Biology"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.626398,
+               39.307194
+            ]
+         },
+         "properties":{
+            "Place":"Home Study Sessions",
+            "Date of Event":"3/19/2014",
+            "Minutes":"4.40",
+            "House":"Semejstvo",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Tutoring",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.612025,
+               39.291033
+            ]
+         },
+         "properties":{
+            "Place":"Circuit Court for Baltimore City",
+            "Date of Event":"3/20/2014",
+            "Minutes":"0.40",
+            "House":"Semejstvo",
+            "School":"Dunbar",
+            "Categories":"Life",
+            "Subcategories":"Legal",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+
+         },
+         "properties":{
+            "Place":""
+         }
+      }
+   ]
+}

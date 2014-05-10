@@ -1,0 +1,119 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.61833,
+               39.297364
+            ]
+         },
+         "properties":{
+            "Place":"Meeting with Parents",
+            "Date of Event":"3/6/2014",
+            "Minutes":"0.50",
+            "House":"Porodica",
+            "School":"Dunbar",
+            "Categories":"Life",
+            "Subcategories":"Assisting Parent/Sibling/ Other Family Member",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.618782,
+               39.28899
+            ]
+         },
+         "properties":{
+            "Place":"Cirque Du Soleil",
+            "Date of Event":"3/21/2014",
+            "Minutes":"4.00",
+            "House":"Porodica",
+            "School":"Dunbar",
+            "Categories":"Relationship",
+            "Subcategories":"IMP Wide Event",
+            "Image":"[image saved]",
+            "Text":"The show was amazing! Thanks IMP!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.592328,
+               39.292052
+            ]
+         },
+         "properties":{
+            "Place":"Betty Hyatt Community Park Clean Up Day",
+            "Date of Event":"3/13/2014",
+            "Minutes":"2.00",
+            "House":"Porodica",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Community Service",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.591047,
+               39.295727
+            ]
+         },
+         "properties":{
+            "Place":"Sidney Kimmel Comprehensive Cancer Center Fitness Day",
+            "Date of Event":"3/25/2014",
+            "Minutes":"1.40",
+            "House":"Porodica",
+            "School":"Dunbar",
+            "Categories":"Life",
+            "Subcategories":"Health",
+            "Image":"[image saved]",
+            "Text":"Working out today!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.61833,
+               39.297364
+            ]
+         },
+         "properties":{
+            "Place":"Home Study Sessions",
+            "Date of Event":"3/30/2014",
+            "Minutes":"1.30",
+            "House":"Porodica",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Tutoring",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+
+         },
+         "properties":{
+            "Place":""
+         }
+      }
+   ]
+}

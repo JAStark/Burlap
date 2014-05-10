@@ -1,0 +1,119 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.600348,
+               39.315827
+            ]
+         },
+         "properties":{
+            "Place":"Home Study Sessions",
+            "Date of Event":"3/1/2014",
+            "Minutes":"0.02",
+            "House":"Khandaan",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Tutoring",
+            "Image":"",
+            "Text":"Biology"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.631626,
+               39.27788
+            ]
+         },
+         "properties":{
+            "Place":"Baltimore Community Toolbank Rain Garden Construction Day",
+            "Date of Event":"3/4/2014",
+            "Minutes":"0.45",
+            "House":"Khandaan",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Community Service",
+            "Image":"",
+            "Text":"Planting for the Spring!!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.618782,
+               39.28899
+            ]
+         },
+         "properties":{
+            "Place":"Cirque Du Soleil",
+            "Date of Event":"3/21/2014",
+            "Minutes":"4.00",
+            "House":"Khandaan",
+            "School":"Dunbar",
+            "Categories":"Relationship",
+            "Subcategories":"IMP Wide Event",
+            "Image":"[image saved]",
+            "Text":"Shout out to Tickets For Kids, who donated Cirque De Soleil tickets for our students and volunteers!! They LOVED it!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"3/27/2014",
+            "Minutes":"0.02",
+            "House":"Khandaan",
+            "School":"Dunbar",
+            "Categories":"Relationship",
+            "Subcategories":"Rides to school",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.598787,
+               39.29551
+            ]
+         },
+         "properties":{
+            "Place":"Dunbar ",
+            "Date of Event":"3/31/2014",
+            "Minutes":"0.36",
+            "House":"Khandaan",
+            "School":"Dunbar",
+            "Categories":"Relationship",
+            "Subcategories":"Rides to school",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+
+         },
+         "properties":{
+            "Place":""
+         }
+      }
+   ]
+}

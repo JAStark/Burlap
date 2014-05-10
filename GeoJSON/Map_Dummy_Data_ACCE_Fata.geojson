@@ -1,0 +1,215 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -78.679595,
+               38.293017
+            ]
+         },
+         "properties":{
+            "Place":"Shenandoah National Park",
+            "Date of Event":"4/3/14",
+            "Hours":"48",
+            "House":"Fata",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"IMP Camping Trip - Fav quote \"where do we go pee?!?!\""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.627921,
+               39.330761
+            ]
+         },
+         "properties":{
+            "Place":"Wyman Park",
+            "Date of Event":"4/7/14",
+            "Hours":"1",
+            "House":"Fata",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"Family/Home event",
+            "Image":"",
+            "Text":"mani-pedi awesomeness!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.581453,
+               39.290377
+            ]
+         },
+         "properties":{
+            "Place":"Patterson Park",
+            "Date of Event":"4/10/14",
+            "Hours":"4",
+            "House":"Fata",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"Annual Skating Party - oh my goodness!!!!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.61644,
+               39.309977
+            ]
+         },
+         "properties":{
+            "Place":"Brick Bodies Downtown Baltimore",
+            "Date of Event":"4/11/14",
+            "Hours":"1",
+            "House":"Fata",
+            "School":"ACCE",
+            "Categories":"Life",
+            "Subcategories":"Health",
+            "Image":"",
+            "Text":"APEX Boot Camp 2 "
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.637805,
+               39.331037
+            ]
+         },
+         "properties":{
+            "Place":"@ ACCE",
+            "Date of Event":"4/15/14",
+            "Hours":"0.5",
+            "House":"Fata",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"Ride to school",
+            "Image":"",
+            "Text":"We're on time! Whoop!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.641717,
+               39.320432
+            ]
+         },
+         "properties":{
+            "Place":"Druid Hill Park",
+            "Date of Event":"4/19/14",
+            "Hours":"3",
+            "House":"Fata",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"BSSC Volleyball - Fata is the best!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.660863,
+               39.338382
+            ]
+         },
+         "properties":{
+            "Place":"Greenspring",
+            "Date of Event":"4/23/14",
+            "Hours":"1",
+            "House":"Fata",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"Family/Home event",
+            "Image":"",
+            "Text":"Ice cream - Ben and Jerry's or Hargen Daaz??"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.610021,
+               39.290241
+            ]
+         },
+         "properties":{
+            "Place":"IMP HQ",
+            "Date of Event":"4/26/14",
+            "Hours":"",
+            "House":"Fata",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"IMP Spring Holiday Party"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.609537,
+               39.325525
+            ]
+         },
+         "properties":{
+            "Place":"People's Community Health Center",
+            "Date of Event":"4/27/14",
+            "Hours":"1",
+            "House":"Fata",
+            "School":"ACCE",
+            "Categories":"Life",
+            "Subcategories":"Health",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.637805,
+               39.331037
+            ]
+         },
+         "properties":{
+            "Place":"@ ACCE",
+            "Date of Event":"5/1/14",
+            "Hours":"0.5",
+            "House":"Fata",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"Ride to school",
+            "Image":"",
+            "Text":"oops - bit late. Better late than never :/"
+         }
+      }
+   ]
+}

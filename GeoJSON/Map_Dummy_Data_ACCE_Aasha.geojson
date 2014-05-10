@@ -1,0 +1,257 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.637805,
+               39.331037
+            ]
+         },
+         "properties":{
+            "Place":"@ ACCE",
+            "Date of Event":"4/1/14",
+            "Hours":"1",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Academic ",
+            "Subcategories":"General tutoring",
+            "Image":"",
+            "Text":"physics "
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -78.679595,
+               38.293017
+            ]
+         },
+         "properties":{
+            "Place":"Shenandoah National Park",
+            "Date of Event":"4/3/14",
+            "Hours":"47",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"IMP Camping Trip - we put up a tent! Feeling very accomplished :D"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.642625,
+               39.334587
+            ]
+         },
+         "properties":{
+            "Place":"Casekey",
+            "Date of Event":"4/5/14",
+            "Hours":"2",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Life",
+            "Subcategories":"Legal",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.637805,
+               39.331037
+            ]
+         },
+         "properties":{
+            "Place":"@ ACCE",
+            "Date of Event":"4/9/14",
+            "Hours":"2",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Academic",
+            "Subcategories":"College prep",
+            "Image":"",
+            "Text":"College Readiness Assessment Sessions"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.581453,
+               39.290377
+            ]
+         },
+         "properties":{
+            "Place":"Patterson Park",
+            "Date of Event":"4/10/14",
+            "Hours":"3.5",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"Annual Skating Party - getting some spins in :D"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.617053,
+               39.334879
+            ]
+         },
+         "properties":{
+            "Place":"Charles Village",
+            "Date of Event":"4/13/14",
+            "Hours":"2",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Academic",
+            "Subcategories":"General tutoring",
+            "Image":"",
+            "Text":"Biology - slowly but surely :D"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.588337,
+               39.296471
+            ]
+         },
+         "properties":{
+            "Place":"2023 Jefferson street",
+            "Date of Event":"4/17/14",
+            "Hours":"1",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Academic ",
+            "Subcategories":"Community Service",
+            "Image":"",
+            "Text":"Habitat for Humanity"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.641717,
+               39.320432
+            ]
+         },
+         "properties":{
+            "Place":"Druid Hill Park",
+            "Date of Event":"4/19/14",
+            "Hours":"1",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"BSSC Volleyball - first time playing. Loved it!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.702191,
+               39.352775
+            ]
+         },
+         "properties":{
+            "Place":"District Court of Maryland",
+            "Date of Event":"4/21/14",
+            "Hours":"2",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Life",
+            "Subcategories":"Legal",
+            "Image":"",
+            "Text":""
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.637805,
+               39.331037
+            ]
+         },
+         "properties":{
+            "Place":"@ ACCE",
+            "Date of Event":"4/25/14",
+            "Hours":"2",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Academic",
+            "Subcategories":"College prep",
+            "Image":"",
+            "Text":"Let's get Matriculated!"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.610021,
+               39.290241
+            ]
+         },
+         "properties":{
+            "Place":"IMP HQ",
+            "Date of Event":"4/26/14",
+            "Hours":"",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Relationship",
+            "Subcategories":"IMP-wide event",
+            "Image":"",
+            "Text":"IMP Spring Holiday Party"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.643792,
+               39.314275
+            ]
+         },
+         "properties":{
+            "Place":"Penn North",
+            "Date of Event":"4/29/14",
+            "Hours":"2",
+            "House":"Aasha",
+            "School":"ACCE",
+            "Categories":"Academic",
+            "Subcategories":"General tutoring",
+            "Image":"",
+            "Text":"Math - \"boo noo\""
+         }
+      }
+   ]
+}
