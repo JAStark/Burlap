@@ -111,19 +111,44 @@ var featureLayer_Cidae = L.mapbox.featureLayer()
 	
 featureLayer_Cidae.loadURL('/Map_Dummy_Data_ACCE_Cidae.geojson')
 
-featureLayer_Cidae.on('ready', function() {
-  // Create a new line with no segments yet and add it to the map
-  var polyline_options = {
-  		color: '#b4d165'
-  	};
-  
-  var polyline = L.polyline([],polyline_options).addTo(map);
-  // For each point in the map.featureLayer, grab its latitude and longitude
-  // values and add them to the line.
-  featureLayer_Cidae.eachLayer(function(l) {
-    polyline.addLatLng(l.getLatLng());
-  });
+
+	
+// Add custom popups to each using our custom feature properties
+featureLayer_Cidae.on('layeradd', function(e) {
+		
+	var marker = e.layer,
+		feature = marker.feature; 
+		
+	//create custom popup content
+	var popupContent = '<h2>' + feature.properties.House + '</h2>' +
+						'<img src="' + feature.properties.Image +
+						 '">' 
+		+ '<p>' +  feature.properties.School + '</p>'
+		+ '<p>' + feature.properties.Subcategories + '</p>'
+		+ '<p>' + feature.properties.Place + '</p>'
+		+ '<p>' + feature.properties.Text + '</p>';
+
+	//http://leafletjs.com/reference.html#popup
+	marker.bindPopup(popupContent, {
+		closeButton: false,
+		minWidth: 320
+	});
+	
+	
+	var polyline_options = {
+		  color: '#b4d165' //kiwi green
+	  };
+
+	var polyline = L.polyline([],polyline_options).addTo(map);
+	// For each point in the map.featureLayer, grab its latitude and longitude
+	// values and add them to the line.
+	featureLayer_Cidae.eachLayer(function(l) {
+	  polyline.addLatLng(l.getLatLng());
+	});
 });
+
+
+// NEW HOUSE 
 
 var featureLayer_Aasha = L.mapbox.featureLayer()
 	.addTo(map);
@@ -133,7 +158,7 @@ featureLayer_Aasha.loadURL('/Map_Dummy_Data_ACCE_Aasha.geojson')
 featureLayer_Aasha.on('ready', function() {
   // Create a new line with no segments yet and add it to the map
    var polyline_options = {
-  		color: '#018d8e'
+  		color: '#018d8e' // turquoisy green
   	};
   
   var polyline = L.polyline([],polyline_options).addTo(map);
