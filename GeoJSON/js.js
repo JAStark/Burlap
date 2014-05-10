@@ -353,3 +353,133 @@ featureLayer_Gesin.on('layeradd', function(e) {
 });
 
 
+// NEW HOUSE Khandaan
+
+var featureLayer_Khandaan = L.mapbox.featureLayer()
+	.addTo(map);
+	
+featureLayer_Khandaan.loadURL('/DHouse_5.geojson')
+
+
+	
+// Add custom popups to each using our custom feature properties
+featureLayer_Khandaan.on('layeradd', function(e) {
+		
+	var marker = e.layer,
+		feature = marker.feature; 
+		
+	//create custom popup content
+	var popupContent = '<h2>' + feature.properties.House + '</h2>' +
+						'<img src="' + feature.properties.Image +
+						 '">' 
+		+ '<p>' +  feature.properties.School + '</p>'
+		+ '<p>' + feature.properties.Subcategories + '</p>'
+		+ '<p>' + feature.properties.Place + '</p>'
+		+ '<p>' + feature.properties.Text + '</p>';
+
+	//http://leafletjs.com/reference.html#popup
+	marker.bindPopup(popupContent, {
+		closeButton: false,
+		minWidth: 320
+	});
+	
+	
+	var polyline_options = {
+		  color: '#5cb1ae' //Jade Dome (teal) 
+	  };
+
+	var polyline = L.polyline([],polyline_options).addTo(map);
+	// For each point in the map.featureLayer, grab its latitude and longitude
+	// values and add them to the line.
+	featureLayer_Khandaan.eachLayer(function(l) {
+	  polyline.addLatLng(l.getLatLng());
+	});
+});
+
+
+// NEW HOUSE Porodica
+
+var featureLayer_Porodica = L.mapbox.featureLayer()
+	.addTo(map);
+	
+featureLayer_Porodica.loadURL('/DHouse_6.geojson')
+
+
+	
+// Add custom popups to each using our custom feature properties
+featureLayer_Porodica.on('layeradd', function(e) {
+		
+	var marker = e.layer,
+		feature = marker.feature; 
+		
+	//create custom popup content
+	var popupContent = '<h2>' + feature.properties.House + '</h2>' +
+						'<img src="' + feature.properties.Image +
+						 '">' 
+		+ '<p>' +  feature.properties.School + '</p>'
+		+ '<p>' + feature.properties.Subcategories + '</p>'
+		+ '<p>' + feature.properties.Place + '</p>'
+		+ '<p>' + feature.properties.Text + '</p>';
+
+	//http://leafletjs.com/reference.html#popup
+	marker.bindPopup(popupContent, {
+		closeButton: false,
+		minWidth: 320
+	});
+	
+	
+	var polyline_options = {
+		  color: '#27160f' //Dark Chocolate 
+	  };
+
+	var polyline = L.polyline([],polyline_options).addTo(map);
+	// For each point in the map.featureLayer, grab its latitude and longitude
+	// values and add them to the line.
+	featureLayer_Porodica.eachLayer(function(l) {
+	  polyline.addLatLng(l.getLatLng());
+	});
+});
+
+
+// NEW HOUSE Semejstvo
+
+var featureLayer_Semejstvo = L.mapbox.featureLayer()
+	.addTo(map);
+	
+featureLayer_Semejstvo.loadURL('/DHouse_7.geojson')
+
+
+	
+// Add custom popups to each using our custom feature properties
+featureLayer_Semejstvo.on('layeradd', function(e) {
+		
+	var marker = e.layer,
+		feature = marker.feature; 
+		
+	//create custom popup content
+	var popupContent = '<h2>' + feature.properties.House + '</h2>' +
+						'<img src="' + feature.properties.Image +
+						 '">' 
+		+ '<p>' +  feature.properties.School + '</p>'
+		+ '<p>' + feature.properties.Subcategories + '</p>'
+		+ '<p>' + feature.properties.Place + '</p>'
+		+ '<p>' + feature.properties.Text + '</p>';
+
+	//http://leafletjs.com/reference.html#popup
+	marker.bindPopup(popupContent, {
+		closeButton: false,
+		minWidth: 320
+	});
+	
+	
+	var polyline_options = {
+		  color: '#5e52a4' //Iris (Blue) 
+	  };
+
+	var polyline = L.polyline([],polyline_options).addTo(map);
+	// For each point in the map.featureLayer, grab its latitude and longitude
+	// values and add them to the line.
+	featureLayer_Semejstvo.eachLayer(function(l) {
+	  polyline.addLatLng(l.getLatLng());
+	});
+});
