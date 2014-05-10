@@ -37,10 +37,11 @@ body {
 	position: absolute;
 	z-index: 10000;
 	background: rgba(255, 255,255,0.8);
+	left: -19px;
 }
 #left_nav li {
 	list-style-type: none;
-	padding: 3px 0 0 0;
+	padding: 0;
 	display: block;
 }
 #left_nav ul {
@@ -67,17 +68,132 @@ h3 {
 	padding: 0;
 	margin: 15px 0 0 0;
 }
-span.one, span.seven {
+
+ul.house li span {
 	display: inline;
-	padding: 2px;
-	color: #fff;
+	padding: 2px 5px;	
+	
+	}
+
+ul.house li span.active, ul.house li:hover
+{
+	
+color: #fff;	
+	}
+
+ul.house li.aasha span.active, ul.house li.aasha:hover
+{
+	background-color: #ff6600;
 }
-span.one {
-	background-color: #8d3796;
+
+ul.house li.elpida span.active, ul.house li.elpida:hover
+{
+	background-color: #f6cd7b;
 }
-span.seven {
-	background-color: #85b13b;
+
+ul.house li.elpida span.fata, ul.house li.fata:hover
+{
+	background-color: #31607e;
 }
+
+
+ul.house li.gidae span.active, ul.house li.gidae:hover
+{
+	background-color: #b4d165;
+}
+
+
+ul.house li.hoop span.active, ul.house li.hoop:hover
+{
+	background-color: #0938e0;
+}
+
+
+
+
+ul.house li.manaolana span.active, ul.house li.manaolana:hover
+{
+	background-color: #610127;
+}
+
+ul.house li.matumaini span.active, ul.house li.matumaini:hover
+{
+	background-color: #7e0b80;
+}
+
+ul.house li.nadam span.active, ul.house li.nadam:hover
+{
+	background-color: #b55891;
+	
+}
+ul.house li.nadezhda span.active, ul.house li.nadezhda:hover
+{
+	background-color: #b55891;
+}
+ul.house li.nadzieja span.active, ul.house li.nadzieja:hover
+{
+	background-color: #b55891;
+}
+
+ul.house li.nozomi span.active, ul.house li.nozomi:hover
+{
+	background-color: #9acefe;
+}
+
+
+
+ul.house li.pagasa span.active, ul.house li.pagasa:hover
+{
+	background-color: #5cb1ae;
+}
+
+ul.house li.toivoa span.active, ul.house li.toivoa:hover
+{
+	background-color: #781100;
+}
+
+
+
+ul.house li.ummak span.active, ul.house li.ummak:hover
+{
+	background-color: #2f3c71;
+}
+
+ul.house li.ummeed span.active, ul.house li.ummeed:hover
+{
+	background-color: #e0523c;
+}
+
+
+
+ul.house li.xiwang span.active, ul.house li.xiwang:hover
+{
+	background-color: #b22c11;
+}
+
+ul.house li.hoop span.active, ul.house li.hoop:hover
+{
+	background-color: ;
+}
+
+
+
+ul.house li.manaolana span.active, ul.house li.malaolana:hover
+{
+	background-color: ;
+}
+
+ul.house li.hoop span.active, ul.house li.hoop:hover
+{
+	background-color: ;
+}
+
+
+
+
+
+
+
 div.submit input {
 	font-weight: bold;
 	padding: 5px 10px;
@@ -99,7 +215,7 @@ div.submit input {
 
 <div id='map'></div>
 <script>
-var map = L.mapbox.map('map', 'byounger14.i74a2g7i')
+var map = L.mapbox.map('map', 'examples.map-9ijuk24y')
     .setView([39.294786, -76.611196], 13);
 
 // As with any other AJAX request, this technique is subject to the Same Origin Policy:
@@ -132,11 +248,7 @@ featureLayer_Aasha.loadURL('/Map_Dummy_Data_ACCE_Aasha.geojson')
 
 featureLayer_Aasha.on('ready', function() {
   // Create a new line with no segments yet and add it to the map
-   var polyline_options = {
-  		color: '#018d8e'
-  	};
-  
-  var polyline = L.polyline([],polyline_options).addTo(map);
+  var polyline = L.polyline([]).addTo(map);
   // For each point in the map.featureLayer, grab its latitude and longitude
   // values and add them to the line.
   featureLayer_Aasha.eachLayer(function(l) {
@@ -162,102 +274,149 @@ featureLayer_Aasha.on('ready', function() {
       <h3>Activity</h3>
       <ul>
         <li>
-          <input type="checkbox">
+          <input type="checkbox" checked>
           General Tutoring </li>
         <li>
-          <input type="checkbox">
+          <input type="checkbox" checked>
           Community Service </li>
         <li>
-          <input type="checkbox">
+          <input type="checkbox" checked>
           College/SAT Prep </li>
         <li>
-          <input type="checkbox">
+          <input type="checkbox" checked>
           Workforce Prep </li>
         <li>
-          <input type="checkbox">
+          <input type="checkbox" checked>
           IMP Wide Event </li>
         <li>
-          <input type="checkbox">
+          <input type="checkbox" checked>
           Ride to School </li>
         <li>
-          <input type="checkbox">
+          <input type="checkbox" checked>
           Family Assistance </li>
         <li>
-          <input type="checkbox">
+          <input type="checkbox" checked>
           Legal </li>
         <li>
-          <input type="checkbox">
+          <input type="checkbox" checked>
           Health </li>
         <li>
-          <input type="checkbox">
+          <input type="checkbox" checked>
           Other </li>
       </ul>
     </div>
+   
+   
     <div >
-      <h3>School</h3>
-      <ul>
-        <li>
-          <input type="checkbox" checked>
-          Danbar </li>
-        <li>
+      <h3>ACCE Thread</h3>
+      <ul class="house">
+   
+          <li class="aasha">
+         <input type="checkbox" checked> <span class="active">Aasha</span> </li>
+        <li class="elpida">
           <input type="checkbox">
-          ACCE</li>
+          <span>Elpida</span> </li>
+        <li class="fata">
+          <input type="checkbox">
+          <span>Fata</span> </li>
+        <li class="gidae">
+          <input type="checkbox" checked>
+          <span class="active">Gidae</span> </li>
+        <li class="hoop">
+          <input type="checkbox">
+          <span>Hoop</span> </li>
+        <li class="manaolana">
+          <input type="checkbox">
+          <span>Mana’olana</span> </li>
+        <li class="matumaini">
+          <input type="checkbox" >
+          <span>Matumaini</span> </li>
+        <li class="nadam">
+          <input type="checkbox">
+          <span>Nadam</span> </li>
+        <li class="nadezhda">
+          <input type="checkbox">
+          <span>Nadezhda</span> </li>
+        <li class="nadzieja">
+          <input type="checkbox">
+          <span>Nadzieja</span> </li>
+        <li class="nozomi">
+          <input type="checkbox">
+          <span>Nozomi</span> </li>
+        <li class="pagasa">
+          <input type="checkbox">
+          <span>Pagasa</span> </li>
+        <li class="toivoa">
+          <input type="checkbox">
+          <span>Toivoa</span> </li>
+        <li class="ummak">
+          <input type="checkbox">
+          <span>Ummak</span> </li>
+        <li class="ummeed">
+          <input type="checkbox">
+          <span>Ummeed</span> </li>
+        <li class="xiwang">
+          <input type="checkbox">
+          <span>Xiwang</span> </li>
+        
       </ul>
     </div>
+    
     <div >
-      <h3>House</h3>
-      <ul>
-        <li>
-          <input type="checkbox" checked>
-          <span class="one">House 1</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 2</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 3</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 4</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 5</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 6</span> </li>
-        <li>
-          <input type="checkbox" checked>
-          <span class="seven">House 7</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 8</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 9</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 10</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 11</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 12</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 6</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 13</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 14</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 15</span> </li>
-        <li>
-          <input type="checkbox">
-          <span>House 16</span> </li>
+      <h3>Dunbar Thread</h3>
+      
+   
+      <ul  class="house">
+   
+<li class="aile">
+         <input type="checkbox"> <span>Aile </span> </li>
+         <li class="gajok">
+         <input type="checkbox"> <span>Gajok </span> </li>
+       
+       <li class="gesin">
+         <input type="checkbox"> <span>Gesin  </span> </li>
+       
+       <li class="iyali">
+         <input type="checkbox"> <span class="one">Iyali  </span> </li>
+       
+       <li class="jiating">
+         <input type="checkbox"> <span class="one">Jiating  </span> </li>
+       
+       <li class="kazoku">
+         <input type="checkbox"> <span class="one">Kazoku  </span> </li>
+       
+       <li class="khandaan ">
+         <input type="checkbox"> <span class="one">Khandaan  </span> </li>
+       
+       <li class="ohana">
+         <input type="checkbox"> <span class="one">Ohana  </span> </li>
+       
+       <li class="oikogeneia ">
+         <input type="checkbox"> <span class="one">Oikogeneia </span> </li>
+       
+       <li class="pamilya">
+         <input type="checkbox"> <span class="one">Pamilya  </span> </li>
+       
+       <li class="parivar">
+         <input type="checkbox"> <span class="one">Parivar  </span> </li>
+       
+       <li class="Perhe">
+         <input type="checkbox"> <span class="one">Perhe  </span> </li>
+       
+       <li class="Porodica ">
+         <input type="checkbox"> <span class="one">Porodica  </span> </li>
+       
+       <li >
+         <input type="checkbox"> <span class="one">Rodzina  </span> </li>
+       
+       <li>
+         <input type="checkbox"> <span class="one">Sem’ja  </span> </li>
+       
+       <li>
+         <input type="checkbox"> <span class="one">Semejestvo </span> </li>
+       
+       
+        
       </ul>
     </div>
   </div>
