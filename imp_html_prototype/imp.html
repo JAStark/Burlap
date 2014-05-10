@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>IMP</title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+<style>
+body {
+	font-family: Myriad pro, Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	background-color: #eee;
+}
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+#left_nav {
+	width: 220px;
+	background-color: #fff;
+	padding: 20px;
+	margin: 20px 60px;
+	overflow: auto;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	position: absolute;
+	z-index: 10000;
+	background: rgba(255, 255,255,0.8);
+}
+#left_nav li {
+	list-style-type: none;
+	padding: 3px 0 0 0;
+	display: block;
+}
+#left_nav ul {
+	float: left;
+	padding: 0;
+	margin: 0;
+	display: block;
+	overflow: auto;
+}
+#left_nav div {
+	display: block;
+	overflow: auto;
+}
+h2 {
+	font-size: 18px;
+	padding: 0;
+	margin: 20px 0 5px 0;
+	color: #3f3f3f;
+}
+h3 {
+	font-size: 15px;
+	color: #666;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 15px 0 0 0;
+}
+span.one, span.seven {
+	display: inline;
+	padding: 2px;
+	color: #fff;
+}
+span.one {
+	background-color: #8d3796;
+}
+span.seven {
+	background-color: #85b13b;
+}
+div.submit input {
+	font-weight: bold;
+	padding: 5px 10px;
+	margin: 10px;
+}
+.go {
+	font-weight: bold;
+	padding: 2px;
+	margin: 10px;
+}
+.filter_by {
+	overflow: auto;
+	height: 600px;
+}
+</style>
+</head>
+
+<body>
+<div id="map"></div>
+<script>
+var map = L.mapbox.map('map', 'examples.map-zgrqqx0w')
+    .setView([	39.307849, -76.621526], 15);
+	
+
+	
+	
+</script>
+<div id="left_nav"><img src="header_img.png" width="180" height="32" alt=""/> <span>
+  <h2>Search by</h2>
+  <input type="text" value="Key Word">
+  <span class="submit">
+  <input type="submit" name="submit" id="submit" value="GO" class="go">
+  </span>
+  <div>
+    <input type="checkbox">
+    with photos only</div>
+  <h2>Filter by</h2>
+  <div class="filter_by">
+    <div>
+      <h3>Activity</h3>
+      <ul>
+        <li>
+          <input type="checkbox">
+          General Tutoring </li>
+        <li>
+          <input type="checkbox">
+          Community Service </li>
+        <li>
+          <input type="checkbox">
+          College/SAT Prep </li>
+        <li>
+          <input type="checkbox">
+          Workforce Prep </li>
+        <li>
+          <input type="checkbox">
+          IMP Wide Event </li>
+        <li>
+          <input type="checkbox">
+          Ride to School </li>
+        <li>
+          <input type="checkbox">
+          Family Assistance </li>
+        <li>
+          <input type="checkbox">
+          Legal </li>
+        <li>
+          <input type="checkbox">
+          Health </li>
+        <li>
+          <input type="checkbox">
+          Other </li>
+      </ul>
+    </div>
+    <div >
+      <h3>School</h3>
+      <ul>
+        <li>
+          <input type="checkbox" checked>
+          Danbar </li>
+        <li>
+          <input type="checkbox">
+          ACCE</li>
+      </ul>
+    </div>
+    <div >
+      <h3>House</h3>
+      <ul>
+        <li>
+          <input type="checkbox" checked>
+          <span class="one">House 1</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 2</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 3</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 4</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 5</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 6</span> </li>
+        <li>
+          <input type="checkbox" checked>
+          <span class="seven">House 7</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 8</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 9</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 10</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 11</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 12</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 6</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 13</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 14</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 15</span> </li>
+        <li>
+          <input type="checkbox">
+          <span>House 16</span> </li>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <input type="submit" name="submit" id="submit" value="GO" class="go">
+  </div>
+</div>
+</body>
+</html>
