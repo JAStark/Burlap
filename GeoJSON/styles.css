@@ -85,10 +85,10 @@ ul.house li.aasha span.active, ul.house li.aasha:hover
 
 ul.house li.elpida span.active, ul.house li.elpida:hover
 {
-	background-color: #f6cd7b;
+	background-color: #dea738;
 }
 
-ul.house li.elpida span.fata, ul.house li.fata:hover
+ul.house li.fata span.active, ul.house li.fata:hover
 {
 	background-color: #31607e;
 }
@@ -96,7 +96,7 @@ ul.house li.elpida span.fata, ul.house li.fata:hover
 
 ul.house li.gidae span.active, ul.house li.gidae:hover
 {
-	background-color: #b4d165;
+	background-color: #92ac4a;
 }
 
 
@@ -168,21 +168,109 @@ ul.house li.xiwang span.active, ul.house li.xiwang:hover
 	background-color: #b22c11;
 }
 
-ul.house li.hoop span.active, ul.house li.hoop:hover
+ul.house li.aile span.active, ul.house li.aile:hover
 {
-	background-color: ;
+	background-color: #ff6600;
 }
 
 
 
-ul.house li.manaolana span.active, ul.house li.malaolana:hover
+ul.house li.gajok span.active, ul.house li.gajok:hover
 {
-	background-color: ;
+	background-color: #199d5c;
 }
 
-ul.house li.hoop span.active, ul.house li.hoop:hover
+ul.house li.gesin span.active, ul.house li.gesin:hover
 {
-	background-color: ;
+	background-color: #b8b830;
+}
+
+ul.house li.lyali span.active, ul.house li.lyali:hover
+{
+	background-color: #1a3e58;
+}
+
+ul.house li.khandaan
+ span.active, ul.house li.khandaan
+:hover
+{
+	background-color: #5cb1ae;
+}
+
+
+
+
+ul.house li.parivar span.active, ul.house li.parivar:hover
+{
+	background-color: #4b5320;
+}
+
+
+ul.house li.semejstvo span.active, ul.house li.semejstvo:hover
+{
+	background-color: #5e52a4;
+}
+
+
+ul.house li.jiating span.active, ul.house li.jiating:hover
+{
+	background-color: #781100;
+}
+
+
+
+ul.house li.kazoku span.active, ul.house li.kazoku:hover
+{
+	background-color: #d374a5;
+}
+
+
+
+
+ul.house li.ohana span.active, ul.house li.ohana:hover
+{
+	background-color: #0c4f26;
+}
+
+ul.house li.oikogeneia span.active, ul.house li.oikogeneia:hover
+{
+	background-color: #9bca3e;
+}
+
+
+ul.house li.pamilya span.active, ul.house li.pamilya:hover
+{
+	background-color: #7e0b80;
+}
+
+
+ul.house li.perhe span.active, ul.house li.perhe:hover
+{
+	background-color: #b9a88c;
+}
+
+ul.house li.porodica span.active, ul.house li.porodica:hover
+{
+	background-color: #b9a88c;
+}
+
+
+ul.house li.rodzina span.active, ul.house li.rodzina:hover
+{
+	background-color: #e0523c;
+}
+
+
+
+ul.house li.semja span.active, ul.house li.semja:hover
+{
+	background-color: #5ff82e;
+}
+
+
+ul.house li.semejestvo span.active, ul.house li.semejestvo:hover
+{
+	background-color: #5e52a4;
 }
 
 
