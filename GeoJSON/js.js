@@ -1,6 +1,6 @@
 // JavaScript Document
 
-var map = L.mapbox.map('map', 'examples.map-9ijuk24y')
+var map = L.mapbox.map('map', 'byounger14.i74a2g7i')
     .setView([39.294786, -76.611196], 13);
 
 // As with any other AJAX request, this technique is subject to the Same Origin Policy:
