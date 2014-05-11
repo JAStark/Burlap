@@ -2,6 +2,7 @@
 
 var map = L.mapbox.map('map', 'byounger14.i74a2g7i')
     .setView([39.294786, -76.611196], 13);
+    map.zoomControl.setPosition('topright');
 
 // As with any other AJAX request, this technique is subject to the Same Origin Policy:
 // http://en.wikipedia.org/wiki/Same_origin_policy
