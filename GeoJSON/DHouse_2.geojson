@@ -1,7 +1,29 @@
 {
    "type":"FeatureCollection",
    "features":[
+      
       {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.592328,
+               39.292052
+            ]
+         },
+         "properties":{
+            "Place":"Betty Hyatt Community Park Clean Up Day",
+            "Date of Event":"3/15/2014",
+            "Minutes":"1.30",
+            "House":"Aile",
+            "School":"Dunbar",
+            "Categories":"Academic",
+            "Subcategories":"Community Service",
+            "Image":"",
+            "Text":"Cleaning the streets and giving back!!"
+         }
+      },
+	  {
          "type":"Feature",
          "geometry":{
             "type":"Point",
@@ -27,62 +49,20 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -76.592328,
-               39.292052
+              -76.464446,
+               39.375131
             ]
          },
          "properties":{
-            "Place":"Betty Hyatt Community Park Clean Up Day",
-            "Date of Event":"3/13/2014",
-            "Minutes":"1.30",
+            "Place":"AMC Loews White Marsh 16",
+            "Date of Event":"3/28/2014",
+            "Minutes":"3.00",
             "House":"Aile",
             "School":"Dunbar",
-            "Categories":"Academic",
-            "Subcategories":"Community Service",
+            "Categories":"Relationship",
+            "Subcategories":"Other",
             "Image":"",
-            "Text":"Cleaning the streets and giving back!!"
-         }
-      },
-      {
-         "type":"Feature",
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -76.592328,
-               39.292052
-            ]
-         },
-         "properties":{
-            "Place":"Betty Hyatt Community Park Clean Up Day",
-            "Date of Event":"3/13/2014",
-            "Minutes":"1.30",
-            "House":"Aile",
-            "School":"Dunbar",
-            "Categories":"Academic",
-            "Subcategories":"Community Service",
-            "Image":"",
-            "Text":""
-         }
-      },
-      {
-         "type":"Feature",
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -76.592328,
-               39.292052
-            ]
-         },
-         "properties":{
-            "Place":"Betty Hyatt Community Park Clean Up Day",
-            "Date of Event":"3/13/2014",
-            "Minutes":"1.30",
-            "House":"Aile",
-            "School":"Dunbar",
-            "Categories":"Academic",
-            "Subcategories":"Community Service",
-            "Image":"",
-            "Text":""
+            "Text":"Divergent was awesome!!!!"
          }
       },
       {
