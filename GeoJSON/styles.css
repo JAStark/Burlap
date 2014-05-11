@@ -31,6 +31,8 @@ body {
 	z-index: 10000;
 	background: rgba(255, 255,255,0.8);
 	left: -19px;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 #left_nav li {
 	list-style-type: none;
@@ -195,7 +197,7 @@ div.submit input {
 }
 .filter_by {
 	overflow: auto;
-	height: 600px;
+	height: 400px;
 }
 
 .leaflet-popup img {
