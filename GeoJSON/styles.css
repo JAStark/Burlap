@@ -197,3 +197,7 @@ div.submit input {
 	overflow: auto;
 	height: 600px;
 }
+
+.leaflet-popup img {
+    width: 100% !important; 
+}
