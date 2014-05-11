@@ -489,11 +489,10 @@ featureLayer_Semejstvo.on('layeradd', function(e) {
 var hide = document.getElementById('hideLayer');
 
 hide.onclick = function(e) {
-        //all.className = '';
-        //this.className = 'active';
-        // The setFilter function takes a GeoJSON feature object
-        // and returns true to show it or false to hide it.
         featureLayer_Cidae.setFilter(function(f) {
+            console.log('layerfunction',f);
             return false;
+
         });		
+        console.log(map);
     };
