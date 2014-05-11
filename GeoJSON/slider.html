@@ -1,25 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset=utf-8 />
-<title>GeoJSON Marker from URL</title>
-
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
-
-
-
-  <link rel="stylesheet" type="text/css" href="styles.css">
-
-
-<!--time slider related stuff start-->
-
-<script type="text/javascript" src="slider/js/jquery-1.3.2.min.js"></script>
-	<script type="text/javascript" src="slider/js/jquery-ui-1.7.1.custom.min.js"></script>
-	<script type="text/javascript" src="slider/js/selectToUISlider.jQuery.js"></script>
-	<link rel="stylesheet" href="slider/css/redmond/jquery-ui-1.7.1.custom.css" type="text/css" />
-	<link rel="Stylesheet" href="slider/css/ui.slider.extras.css" type="text/css" />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Demo Page: Using Progressive Enhancement to Convert a Select Box Into an Accessible jQuery UI Slider</title>
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.7.1.custom.min.js"></script>
+	<script type="text/javascript" src="js/selectToUISlider.jQuery.js"></script>
+	<link rel="stylesheet" href="css/redmond/jquery-ui-1.7.1.custom.css" type="text/css" />
+	<link rel="Stylesheet" href="css/ui.slider.extras.css" type="text/css" />
 	<style type="text/css">
 		body {font-size: 62.5%; font-family:"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif; }
 		fieldset { border:0; margin: 6em; height: 12em;}	
@@ -57,189 +45,11 @@
 	<!-- jQuery UI theme switcher -->
 	<script type="text/javascript" src="http://ui.jquery.com/applications/themeroller/themeswitchertool/"></script>
 	<script type="text/javascript"> $(function(){ $('<div style="position: absolute; right: 20px; margin-top: -40px" />').appendTo('body').themeswitcher({onSelect: function(){ setTimeout(fixToolTipColor, 800); }}); });</script>
-<!-- time slider related stuff end-->
-
-
 </head>
+
 <body>
 
-
-<div id='map'></div>
-
-
-<div id="left_nav"><img src="Dummy_Logo.png" width="180" height="32" alt=""/> <span>
-  <h2>Search by</h2>
-  <input type="text" value="Key Word">
-  <span class="submit">
-  <input type="submit" name="submit" id="submit" value="GO" class="go">
-  </span>
-  <div>
-    <input type="checkbox">
-    with photos only</div>
-  <h2>Filter by</h2>
-  <div class="filter_by">
-    <div>
-      <h3>Activity</h3>
-      <ul>
-        <li>
-          <input type="checkbox" checked>
-          General Tutoring </li>
-        <li>
-          <input type="checkbox" checked>
-          Community Service </li>
-        <li>
-          <input type="checkbox" checked>
-          College/SAT Prep </li>
-        <li>
-          <input type="checkbox" checked>
-          Workforce Prep </li>
-        <li>
-          <input type="checkbox" checked>
-          IMP Wide Event </li>
-        <li>
-          <input type="checkbox" checked>
-          Ride to School </li>
-        <li>
-          <input type="checkbox" checked>
-          Family Assistance </li>
-        <li>
-          <input type="checkbox" checked>
-          Legal </li>
-        <li>
-          <input type="checkbox" checked>
-          Health </li>
-        <li>
-          <input type="checkbox" checked>
-          Other </li>
-      </ul>
-    </div>
-   
-   
-    <div >
-      <h3>ACCE Thread</h3>
-      <ul class="house">
-   
-          <li class="aasha">
-         <input type="checkbox" checked> <span class="active">Aasha</span> </li>
-        <li class="elpida">
-          <input type="checkbox">
-          <span>Elpida</span> </li>
-        <li class="fata">
-          <input type="checkbox">
-          <span>Fata</span> </li>
-        <li class="gidae">
-          <input type="checkbox" checked>
-          <span class="active">Gidae</span> </li>
-        <li class="hoop">
-          <input type="checkbox">
-          <span>Hoop</span> </li>
-        <li class="manaolana">
-          <input type="checkbox">
-          <span>Mana’olana</span> </li>
-        <li class="matumaini">
-          <input type="checkbox" >
-          <span>Matumaini</span> </li>
-        <li class="nadam">
-          <input type="checkbox">
-          <span>Nadam</span> </li>
-        <li class="nadezhda">
-          <input type="checkbox">
-          <span>Nadezhda</span> </li>
-        <li class="nadzieja">
-          <input type="checkbox">
-          <span>Nadzieja</span> </li>
-        <li class="nozomi">
-          <input type="checkbox">
-          <span>Nozomi</span> </li>
-        <li class="pagasa">
-          <input type="checkbox">
-          <span>Pagasa</span> </li>
-        <li class="toivoa">
-          <input type="checkbox">
-          <span>Toivoa</span> </li>
-        <li class="ummak">
-          <input type="checkbox">
-          <span>Ummak</span> </li>
-        <li class="ummeed">
-          <input type="checkbox">
-          <span>Ummeed</span> </li>
-        <li class="xiwang">
-          <input type="checkbox">
-          <span>Xiwang</span> </li>
-        
-      </ul>
-    </div>
-    
-    <div >
-      <h3>Dunbar Thread</h3>
-      
-   
-      <ul  class="house">
-   
-<li class="aile">
-         <input type="checkbox"> <span>Aile </span> </li>
-         <li class="gajok">
-         <input type="checkbox"> <span>Gajok </span> </li>
-       
-       <li class="gesin">
-         <input type="checkbox"> <span>Gesin  </span> </li>
-       
-       <li class="iyali">
-         <input type="checkbox"> <span class="one">Iyali  </span> </li>
-       
-       <li class="jiating">
-         <input type="checkbox"> <span class="one">Jiating  </span> </li>
-       
-       <li class="kazoku">
-         <input type="checkbox"> <span class="one">Kazoku  </span> </li>
-       
-       <li class="khandaan ">
-         <input type="checkbox"> <span class="one">Khandaan  </span> </li>
-       
-       <li class="ohana">
-         <input type="checkbox"> <span class="one">Ohana  </span> </li>
-       
-       <li class="oikogeneia ">
-         <input type="checkbox"> <span class="one">Oikogeneia </span> </li>
-       
-       <li class="pamilya">
-         <input type="checkbox"> <span class="one">Pamilya  </span> </li>
-       
-       <li class="parivar">
-         <input type="checkbox"> <span class="one">Parivar  </span> </li>
-       
-       <li class="Perhe">
-         <input type="checkbox"> <span class="one">Perhe  </span> </li>
-       
-       <li class="Porodica ">
-         <input type="checkbox"> <span class="one">Porodica  </span> </li>
-       
-       <li >
-         <input type="checkbox"> <span class="one">Rodzina  </span> </li>
-       
-       <li>
-         <input type="checkbox"> <span class="one">Sem’ja  </span> </li>
-       
-       <li>
-         <input type="checkbox"> <span class="one">Semejestvo </span> </li>
-       
-       
-        
-      </ul>
-    </div>
-  </div>
-  <div>
-    <input type="submit" name="submit" id="submit" value="GO" class="go">
-  </div>
-</div>
-
-
-
-<form action="#" style="
-    position: fixed;
-    bottom: 20px;
-    width: 90%;
-">
+	<form action="#">
 		<!-- demo 1 -->
 		<fieldset style="display: none;">
 			<label for="speed">Select a Speed:</label>
@@ -304,8 +114,8 @@
 		
 		<!-- demo 3 -->
 		<fieldset>
-			<label for="valueAA" style="display: none;">From:</label>
-			<select name="valueAA" id="valueAA" style="display: none;">
+			<label for="valueAA">From:</label>
+			<select name="valueAA" id="valueAA">
 				<optgroup label="2009">
 					<option value="01/09">Jan 09</option>
 					<option value="02/09">Feb 09</option>
@@ -392,8 +202,8 @@
 				</optgroup>
 			</select>
 	
-			<label for="valueBB" style="display: none;">To:</label>
-			<select name="valueBB" id="valueBB" style="display: none;">
+			<label for="valueBB">To:</label>
+			<select name="valueBB" id="valueBB">
 				<optgroup label="2009">
 					<option value="01/09">Jan 09</option>
 					<option value="02/09">Feb 09</option>
@@ -469,23 +279,18 @@
 					<option value="02/14">Feb 14</option>
 					<option value="03/14">Mar 14</option>
 					<option value="04/14">Apr 14</option>
-					<option value="05/14" selected="selected">May 14</option>
-                    
-                    <!--
+					<option value="05/14">May 14</option>
 					<option value="06/14">Jun 14</option>
 					<option value="07/14">Jul 14</option>
 					<option value="08/14">Aug 14</option>
 					<option value="09/14">Sep 14</option>
 					<option value="10/14">Oct 14</option>
 					<option value="11/14">Nov 14</option>
-					<option value="12/14"  >Dec 14</option>-->
+					<option value="12/14"  selected="selected">Dec 14</option>
                  
 				</optgroup>
 			</select>
 		</fieldset>
 	</form>
-
-
-<script src='js.js'></script>
 </body>
 </html>
