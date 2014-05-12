@@ -442,6 +442,7 @@ featureLayer_Porodica.on('layeradd', function(e) {
 });
 
 
+
 // NEW HOUSE Semejstvo
 
 var featureLayer_Semejstvo = L.mapbox.featureLayer()
