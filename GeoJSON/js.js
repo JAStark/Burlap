@@ -11,7 +11,7 @@ var map = L.mapbox.map('map', 'byounger14.i74a2g7i')
 var featureLayer_Cidae = L.mapbox.featureLayer()
 	.addTo(map);
 	
-featureLayer_Cidae.loadURL('/Map_Dummy_Data_ACCE_Cidae.geojson')
+featureLayer_Cidae.loadURL('Map_Dummy_Data_ACCE_Cidae.geojson')
 
 
 	
@@ -55,7 +55,7 @@ featureLayer_Cidae.on('layeradd', function(e) {
 var featureLayer_Aasha = L.mapbox.featureLayer()
 	.addTo(map);
 	
-featureLayer_Aasha.loadURL('/Map_Dummy_Data_ACCE_Aasha.geojson')
+featureLayer_Aasha.loadURL('Map_Dummy_Data_ACCE_Aasha.geojson')
 	
 // Add custom popups to each using our custom feature properties
 featureLayer_Aasha.on('layeradd', function(e) {

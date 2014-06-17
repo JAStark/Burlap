@@ -11,7 +11,7 @@ var map = L.mapbox.map('map', 'byounger14.i74a2g7i')
 var featureLayer_Cidae = L.mapbox.featureLayer()
 	.addTo(map);
 	
-featureLayer_Cidae.loadURL('/Map_Dummy_Data_ACCE_Cidae.geojson')
+featureLayer_Cidae.loadURL('Map_Dummy_Data_ACCE_Cidae.geojson')
 
 
 	
